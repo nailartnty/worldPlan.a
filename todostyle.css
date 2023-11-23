@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Caveat:wght@400;500;600;700&family=Press+Start+2P&display=swap');
+
+  body{
+     font-family: 'Agbalumo', sans-serif;
+     background-color: #FACBEA;
+
+  }
+
+  *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     border: none;
+     outline: none;
+
+  }
+
+  .text{
+   font-family: 'Press Start 2P', serif;
+   width: 500;
+   font-size: 25px;
+  }
+
+  .container{
+     width: 590px;
+     height: 100vh; /*panjangnya memenuhi 1 layar*/
+     margin: 0 auto;
+     margin-top: 20px; /*kanan kiri auto*/
+
+  }
+
+  .header{
+     padding: 15px;
+     color: #B0578D;
+     background-color: #FFF6F6;
+     border-radius: .5rem;
+     margin-bottom: 10px;
+
+  }
+
+  .title{
+     display: flex;
+     align-items: center;
+     margin-bottom: 7px;
+
+  }
+  .title img {
+     font-size: 25px;
+     margin-right: 10px;
+     color: black;
+     width: 35px;
+
+  }
+
+  .description{
+     font-size: 13px;
+
+  }
+
+  .card{
+     background-color: #B0578D;
+     padding: 15px;
+     border-radius: 5px;
+     margin-bottom: 10px;
+
+  }
+
+  .input-control{
+     width: 100%;
+     display: block;
+     padding: .5rem;
+     font-size: 1rem;
+     border-radius: .3rem;
+     margin-bottom: 10px;
+     
+     
+
+  }
+
+  /* buat styling si placeholder */
+  ::placeholder{
+     color: #add5ef;
+     font-size: 13px;
+     font-family: 'Caveat', sans-serif;
+
+  }
+
+  .text-right{
+     text-align: right;
+  }
+
+  button{
+     padding: .5rem 1rem;
+     border-radius: .3rem;
+     cursor: pointer;
+     color: #add5ef;
+     font-family: 'Caveat', sans-serif;
+     background-color: #FFF6F6;
+  }
+
+  .task-item{
+     display: flex;
+     justify-content: space-between;
+     color: white;
+  }
+
+  .edit-task{
+     color: #add5ef;
+     font-size: 20px;
+  }
+
+  .delete-task{
+     color: #FACBEA;
+     font-size: 20px;
+  }
+
+  .done{
+     text-decoration: line-through;
+     color: black;
+  }

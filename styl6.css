@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Press+Start+2P&family=Square+Peg&display=swap');
+
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+:root{
+     --bg-color: #F875AA;
+     --text-color: #FFF6F6;
+     --scn-bg-color: #fff;
+     --judul: 'Press Start 2P', serif;
+     --isi: 'Fuzzy Bubbles',sans-serif;
+     --font-ke2: 'Square Peg', serif;
+}
+
+body{
+     background-color: #F875AA;
+}
+
+
+.text h1{
+     color: #fff;
+     text-align: center;
+     font-family: var(--judul);
+     font-size: 40px;
+     margin-top: 200px;
+}
+
+.text p{
+     font-family: var(--isi);
+     color: var(--text-color);
+     font-size: small;
+     text-align: center;
+     margin-top: 20px;
+     margin-bottom: 200px;
+}
+
+.konten{
+     background-color: var(--scn-bg-color);
+     padding: 0px 100px;
+     display: flex;
+}
+
+.konten .left {
+     margin-top: 12px;
+     margin-right: 150px;
+     margin-bottom: 10px;
+}
+
+.konten .left h2 {
+     color: black;
+     font-family: var(--isi);
+     font-size: 30px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: 32px;
+     margin-top: 60px;
+     margin-bottom: 20px;
+}
+
+.konten .left p {
+     margin-bottom: 1rem;
+    color: black;
+    font-family: var(--font-ke2);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.konten .right img {
+     width: 416px;
+    /* height: 612px; */
+    margin-top: 45px;
+}
+
+.btn {
+     margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+.btn-todo {
+     color: white;
+     background: var(--bg-color);
+     font-family: var(--isi);
+     font-size: 16px;
+     padding: 9px 19px;
+     margin-right: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 10px;
+     border-radius: 10px;
+     border: 1px solid var(--text-color);
+     transition: .5s;
+     /* font-weight: 800; */
+ }
+ .btn-todo:hover {
+     background-color: var(--text-color);
+     color: var(--bg-color);
+     border: 1px solid var(--bg-color);
+     font-weight: 800;
+     padding: 10px 20px;
+     margin-right: 70px;
+     font-size: 17px;
+ }
+
+.media-sosial a{
+     display: inline-flex;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    background: transparent;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+    color: var(--bg-color);
+    transition: .5s;
+
+}
+
+.media-sosial a:hover{
+     color: black;
+     border-color: var(--bg-color);
+     padding: 8px;
+}
+
+/* .konten .right {
+     margin-bottom: 30px;
+     margin-top: 30px;
+     
+ } */
+
+ .title{
+     display: flex;
+    align-items: center;
+     /* margin-right: 9rem; */
+     margin-bottom: 3px;
+
+  }
+  .title img {
+     font-size: 25px;
+     margin-right: 10px;
+     color: black;
+     width: 35px;
+  }
+
+  /* .title h2{
+      margin-top: 7rem;
+  } */
+
+  .navbar {
+     top: 0;
+     left: 0;
+     /* width: 90%; */
+     width: 590px;
+     height: 60px; /*panjangnya memenuhi 1 layar*/
+     margin: 0 auto;
+     margin-top: 10px;
+     padding: 10px ;
+     background-color: var(--text-color);
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     border-radius: 10px;
+     font-family: var(--judul);
+     font-size: 10px;
+ }
+
+ .imgeee{
+     height: 50vh;
+     border-radius: 50%;
+     text-align: center;
+     justify-content: center;
+     margin-bottom: 30px;
+ }
+
+ .opening h1{
+     font-size: 40px;
+     font-family: var(--judul);
+ }
+
+.btn1{
+     font-size: x-small;
+     font-family: var(--isi);
+     margin-left: 20px;
+     margin-top: 13px;
+
+}
